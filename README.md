@@ -2,6 +2,19 @@
 
 A web application for students to book sessions with tutors.
 
+---
+
+## 🔑 Default Administrator Credentials
+
+Use the following credentials to log in as an administrator:
+
+> [!IMPORTANT]
+> **Default Admin Login:**
+> - **Email:** `admin@gmail.com`
+> - **Password:** `123`
+
+---
+
 ## Features
 
 ### For Students
@@ -14,12 +27,12 @@ A web application for students to book sessions with tutors.
 
 ### For Admin
 - **Admin Dashboard:** Centralized panel to manage users, tutors, bookings, payments, reviews, and admins.
-    - **User Management:** Delete users.
-    - **Tutor Management:** Add, remove, or edit tutor profiles.
-    - **Review Management:** Delete inappropriate reviews.
-    - **Payment Management:** View all payment transactions.
-    - **Admin Management:** Create new admins or remove existing admins.
-    - **Booking Management:** View all bookings.
+  - **User Management:** Delete users.
+  - **Tutor Management:** Add, remove, or edit tutor profiles.
+  - **Review Management:** Delete inappropriate reviews.
+  - **Payment Management:** View all payment transactions.
+  - **Admin Management:** Create new admins or remove existing admins.
+  - **Booking Management:** View all bookings.
 
 ## Technology Stack
 
@@ -31,22 +44,20 @@ A web application for students to book sessions with tutors.
 
 <picture> <source media="(prefers-color-scheme: dark)" srcset="UML%20diagram/UML%20diagram-dark.png"> <img src="UML%20diagram/UML%20diagram-light.png"> </picture> 
 
-
-- Open : <a href="UML%20diagram/UML%20diagram.drawio">Draw IO</a>
-
-- Open : <a href="UML%20diagram/UML%20diagram.docx">Microsoft Word</a>
+- Open: <a href="UML%20diagram/UML%20diagram.drawio">Draw IO</a>
+- Open: <a href="UML%20diagram/UML%20diagram.docx">Microsoft Word</a>
 
 ## Getting Started
 
 ### Prerequisites
 
-- Java Development Kit (JDK), version 8 or higher
+- Java Development Kit (JDK), version 23 or higher (specified in pom.xml)
 - Apache Tomcat or similar Java servlet container
 
 ### Setup Instructions
 
 1. **Clone the repository:**
-   ```
+   ```bash
    git clone https://github.com/Thisal-D/Tutor-Booking-System.git
    ```
 

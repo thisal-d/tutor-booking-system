@@ -15,6 +15,7 @@ public class AdminManager {
 
         admins = new ArrayList<>();
 
+        // default admin (can be removed)
         admins.add(new Admin(0, "admin@gmail.com", "123", "Admin", "0700000000"));
 
         String[] adminsDataArr = FileHandler.readFromFile(fileName);
